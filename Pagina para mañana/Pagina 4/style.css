@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://www.comunicare.es/wp-content/uploads/2021/01/Publicidad-para-barberia.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20em;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.back{ 
+    padding: 32px 0;
+    background-color: #2A394F;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    color: #15A4F9;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;   
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #15A4F9;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    background-color:#2A394F;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+label{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+padding: 17px 25px;
+border-radius: 25px;
+margin-bottom: 20px;
+background-color: #15A4F9;
+border: 2px solid white;
+color: #FFFFFF;
+outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #FFFFFF;
+}
+
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn{
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0 ;
+    border-radius: 25px;
+    background-color: #15A4F9;;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
+
+.centro{
+    margin-left: 525px;
+    margin-top: 50px;
+}
+
